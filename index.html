@@ -3,8 +3,33 @@
   <head>
     <title>Unit Converter</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div>Gggrrrrrrrrrrrr</div>
+    <div id="container">
+      <div id="header">
+        <h1 id="title">Metric/Imperial Unit Conversion</h1>
+        <input type="number" id="num-input" />
+      </div>
+      <div id="unit-area">
+        <div class="unit" id="length">
+          Length (Meter/Feet)
+          <p id="length-output"></p>
+        </div>
+        <div class="unit" id="volume">
+          Volume (Liters/Gallons)
+          <p id="volume-output"></p>
+        </div>
+        <div class="unit" id="mass">
+          Mass (Kilograms/Pounds)
+          <p id="mass-output"></p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
